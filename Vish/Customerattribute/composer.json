@@ -1,0 +1,21 @@
+{
+    "name": "onecreations/module-customertesaccnumber",
+    "description": "",
+    "license": "DWTFYWD",
+    "authors": [
+        {
+            "contact": "https://github.com/vishvega/",
+            "name": "Add Customer Attributes"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vish\\Customerattribute\\": ""
+        }
+    }
+}
