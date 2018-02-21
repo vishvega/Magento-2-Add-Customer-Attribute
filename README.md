@@ -5,3 +5,19 @@ Magento’s customer attributes provide the information required to support the 
 By default only Magento Enterprise has the ability to add customer attributes using the backend/admin panel. For Magento community editions, you may have to create your own custom module to do that.
 
 ##Installation 
+
+Step 1: Download the extension
+
+Step 2: Unzip the file in a temporary directory
+
+Step 3: Upload it to your Magento installation root directory -> app->code
+
+Step 4: Disable the cache under System­ >> Cache Management (Not mandatory)
+
+Step 5: Enter the followings at the command line, one after another: 
+
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy en_US (This may change depending on your store language)
+php bin/magento indexer:reindex
+php bin/magento cache:clean
