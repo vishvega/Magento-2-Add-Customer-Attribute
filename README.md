@@ -16,12 +16,12 @@ Step 4: Disable the cache under System­ >> Cache Management (Not mandatory)
 
 Step 5: Enter the followings at the command line, one after another: 
 
-php bin/magento setup:upgrade
+  php bin/magento setup:upgrade
 
-php bin/magento setup:di:compile
+  php bin/magento setup:di:compile
 
-php bin/magento setup:static-content:deploy en_US (This may change depending on your store language)
+  php bin/magento setup:static-content:deploy en_US (This may change depending on your store language)
 
-php bin/magento indexer:reindex
+  php bin/magento indexer:reindex
 
-php bin/magento cache:clean
+  php bin/magento cache:clean
