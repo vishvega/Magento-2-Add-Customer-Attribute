@@ -25,3 +25,5 @@ Step 5: Enter the followings at the command line, one after another:
   php bin/magento indexer:reindex
 
   php bin/magento cache:clean
+
+*Homepage : https://vishvega.github.io/Magento-2-Add-Customer-Attribute/
